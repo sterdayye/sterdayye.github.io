@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="new.css">
+    <title>Анастасия хочет обменяться с вами откровенными фотографиями</title>
+    <meta charset="utf-8">
+    <style>
+        
+        @media (max-width: 768px) {
+            #div1 {
+                width: 50%;
+                height: 100%;
+                z-index: 1;
+            }
+            #div2 {
+                left: 50%;
+                width: 50%;
+                height: 100%;
+                z-index: 1; 
+            }
+            #div3 {
+                display: none;
+            }
+            #frame {
+                top: 200px;
+            }
+        }
+        @media (max-width: 400px) {
+            #div1 {
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+            }
+            #div2 {
+                display: none;
+            }
+            #div3 {
+                display: none;
+            }
+            #frame {
+                top: 200px;
+            }
+        }
+        
+        
+       
+    </style>
+</head>
+<body>
+    <div id="div1"><div class="img_overlay"></div></div>
+    <div id="div2"><div class="img_overlay"></div></div>
+    <div id="div3"><div class="img_overlay"></div></div>
+    <div id="frame">
+        <span id="attention"><p>Внимание!</p></span>
+        <hr>
+        <p><span id="name">Наталья</span> хочет обменяться с вами фото.</p>
+        <hr>
+        <p>Вы согласны?</p>
+        <form action="http://google.com/">
+                 <button class="btn_submit" type="submit">Да</button>
+                 <button class="btn_submit" type="submit">Нет</button>
+        </form>
+        
+    </div>
+</body>
+</html>
