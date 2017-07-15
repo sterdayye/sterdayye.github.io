@@ -7,6 +7,12 @@ body, html {
     -webkit-background-size: cover;
 }
 
+@media screen and (max-width: 480px) {
+    #frame {
+        width: 80%;
+    }
+}
+
 #frame {
     height: 210px;
     width: 220px;
