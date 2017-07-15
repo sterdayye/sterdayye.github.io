@@ -2,7 +2,8 @@ body, html {
     margin: 0;
     height: 100%;
     width: 100%;
-    background: url(Back_Collage.jpg) center center no-repeat;
+    background: url(Back_Collage.jpg) center center no-repeat fixed;
+    background-size: cover;
 }
 
 #frame {
