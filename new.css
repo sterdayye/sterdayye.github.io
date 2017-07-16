@@ -150,7 +150,9 @@ top: 0px;
     border: 1px solid black;
     cursor: pointer;
 }
-
+.btn_yes {
+    margin-right: 0.5rem;
+}
 #name {
     color: dodgerblue;
 }
