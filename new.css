@@ -151,7 +151,10 @@ top: 0px;
     cursor: pointer;
 }
 .btn_yes {
-    margin-right: 0.5rem;
+    margin-right: 0.25rem;
+}
+.btn_no {
+    margin-left: 0.25rem;
 }
 #name {
     color: dodgerblue;
